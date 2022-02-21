@@ -1,13 +1,184 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>ProteinKG25</title>
-    </head>
-    <body>
-        <h1>Info</h1>
-        <p>Hello World！</p>
-        
-        
-        <h1>Data</h1>
-    </body>
-</html>
+<html lang="en-US"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Wikidata5m | MilaGraph</title>
+<meta name="generator" content="Jekyll v3.9.0">
+<meta property="og:title" content="Wikidata5m">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Project page of MilaGraph group">
+<meta property="og:description" content="Project page of MilaGraph group">
+<link rel="canonical" href="https://deepgraphlearning.github.io/project/wikidata5m">
+<meta property="og:url" content="https://deepgraphlearning.github.io/project/wikidata5m">
+<meta property="og:site_name" content="MilaGraph">
+<meta property="og:image" content="https://deepgraphlearning.github.io/project/assets/images/wikidata5m.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://deepgraphlearning.github.io/project/assets/images/wikidata5m.jpg">
+<meta property="twitter:title" content="Wikidata5m">
+<script type="application/ld+json">
+{"image":"https://deepgraphlearning.github.io/project/assets/images/wikidata5m.jpg","headline":"Wikidata5m","description":"Project page of MilaGraph group","url":"https://deepgraphlearning.github.io/project/wikidata5m","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <style class="anchorjs"></style><link rel="stylesheet" href="/project/assets/css/style.css?v=a7d5c68a769250369049256660f45997828fb734">
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.1050.0" data-gr-ext-installed="">
+    <div class="container-lg px-3 my-5 markdown-body">
+      <h1>
+        Wikidata5m
+      </h1>
+      
+      
+      <img src="https://deepgraphlearning.github.io/project/assets/images/wikidata5m.jpg">
+      
+      
+      <h2 id="info">Info<a class="anchorjs-link " href="#info" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<p>Wikidata5m is a million-scale knowledge graph dataset with aligned corpus. This dataset integrates the <a href="https://www.wikidata.org">Wikidata</a> knowledge graph and <a href="https://www.wikipedia.org/">Wikipedia</a> pages. Each entity in Wikidata5m is described by a corresponding Wikipedia page, which enables the evaluation of link prediction over unseen entities.</p>
+
+<p>The dataset is distributed as a knowledge graph, a corpus, and aliases. We provide both transductive and inductive data splits used in the <a href="https://arxiv.org/pdf/1911.06136.pdf">original paper</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>&nbsp;</th>
+      <th>#Entity</th>
+      <th>#Relation</th>
+      <th>#Triplet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Transductive</td>
+      <td>Train</td>
+      <td>4,594,485</td>
+      <td>822</td>
+      <td>20,614,279</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Valid</td>
+      <td>4,594,485</td>
+      <td>822</td>
+      <td>5,163</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Test</td>
+      <td>4,594,485</td>
+      <td>822</td>
+      <td>5,133</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Inductive</td>
+      <td>Train</td>
+      <td>4,579,609</td>
+      <td>822</td>
+      <td>20,496,514</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Valid</td>
+      <td>7,374</td>
+      <td>199</td>
+      <td>6,699</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Test</td>
+      <td>7,475</td>
+      <td>201</td>
+      <td>6,894</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="data">Data<a class="anchorjs-link " href="#data" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<ul>
+  <li>Knowledge graph: <a href="https://www.dropbox.com/s/6sbhm0rwo4l73jq/wikidata5m_transductive.tar.gz?dl=1">Transductive split</a>, 160 MB. <a href="https://www.dropbox.com/s/csed3cgal3m7rzo/wikidata5m_inductive.tar.gz?dl=1">Inductive split</a>, 160 MB. <a href="https://www.dropbox.com/s/563omb11cxaqr83/wikidata5m_all_triplet.txt.gz?dl=1">Raw</a>, 168 MB.</li>
+  <li><a href="https://www.dropbox.com/s/7jp4ib8zo3i6m10/wikidata5m_text.txt.gz?dl=1">Corpus</a>, 991 MB.</li>
+  <li><a href="https://www.dropbox.com/s/lnbhc8yuhit4wm5/wikidata5m_alias.tar.gz?dl=1">Entity &amp; relation aliases</a>, 188 MB.</li>
+</ul>
+
+<p>For raw knowledge graph, it may also contain entities that do not have corresponding Wikipedia pages.</p>
+
+<h2 id="format">Format<a class="anchorjs-link " href="#format" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<p>Wikidata5m follows the identifier system used in Wikidata. Each entity and relation is identified by a unique ID. Entities are prefixed by <code class="language-plaintext highlighter-rouge">Q</code>, while relations are prefixed by <code class="language-plaintext highlighter-rouge">P</code>.</p>
+
+<h3 id="knowledge-graph">Knowledge Graph<a class="anchorjs-link " href="#knowledge-graph" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+<p>The knowledge graph is stored in the triplet list format. For example, the following line corresponds to <em>&lt;Donald Trump, position held, President of the United States&gt;</em>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Q22686	P39	Q11696
+</code></pre></div></div>
+
+<h3 id="corpus">Corpus<a class="anchorjs-link " href="#corpus" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+<p>Each line in the corpus is a document, indexed by entity ID. The following line shows the description for <em>Donald Trump</em>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Q22686	Donald John Trump (born June 14, 1946) is the 45th and current president of the United States ...
+</code></pre></div></div>
+
+<h3 id="alias">Alias<a class="anchorjs-link " href="#alias" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+<p>Each line lists the alias for an entity or relation. The following line shows the aliases of <em>Donald Trump</em>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Q22686  donnie trump	45th president of the united states     Donald John Trump ...
+</code></pre></div></div>
+
+<h2 id="publications">Publications<a class="anchorjs-link " href="#publications" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<ul>
+  
+  <li>
+    <b>KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation</b>
+    <br>
+    
+    Xiaozhi Wang,
+    
+    Tianyu Gao,
+    
+    Zhaocheng Zhu,
+    
+    Zhiyuan Liu,
+    
+    Juanzi Li,
+    
+    Jian Tang
+    
+    <br>
+    <b class="text-red" style="padding-right: 10px">TACL 2020</b>
+    
+    <a href="https://arxiv.org/pdf/1911.06136.pdf" style="padding-right: 10px">arXiv</a>
+    
+    <a href="https://deepgraphlearning.github.io/project/bibtex/kepler.txt" style="padding-right: 10px">BibTeX</a>
+    
+  </li>
+  
+</ul>
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        MilaGraph group
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  
+
+<script>mendeleyWebImporter = {
+  downloadPdfs(e,t) { return this._call('downloadPdfs', [e,t]); },
+  open() { return this._call('open', []); },
+  setLoginToken(e) { return this._call('setLoginToken', [e]); },
+  _call(methodName, methodArgs) {
+    const id = Math.random();
+    window.postMessage({ id, token: '0.45671175691924715', methodName, methodArgs }, 'https://deepgraphlearning.github.io');
+    return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};</script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
