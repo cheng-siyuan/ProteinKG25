@@ -3,36 +3,36 @@
       {
         "id": "0",
         "name": "Gene Ontology",
-        "symbolSize": 54.58095333333333,
-        "x": 0,
-        "y": 0,
+        "symbolSize": 45.58095333333333,
+        "x": -0.1347,
+        "y": 40.1347,
         "value": "ROOT",
         "category": 0
       },
       {
         "id": "1",
         "name": "Biological Process",
-        "symbolSize": 28.266666666666666,
-        "x": 87,
-        "y": 10,
+        "symbolSize": 35.58095333333333,
+        "x": 10.233435,
+        "y": 10.111111,
         "value": "GO:0008150",
         "category": 1
       },
       {
         "id": "2",
         "name": "Cellular Component",
-        "symbolSize": 28.266666666666666,
-        "x": -98,
-        "y": 4.8131495,
+        "symbolSize": 35.58095333333333,
+        "x": -18.22222,
+        "y": 41.8131495,
         "value": "GO:0005575",
         "category": 2
       },
       {
         "id": "3",
         "name": "Molecular Function",
-        "symbolSize": 28.266666666666666,
-        "x": -10,
-        "y": 76,
+        "symbolSize": 35.58095333333333,
+        "x": 20.15555555,
+        "y": 43.11111111,
         "value": "GO:0003674",
         "category": 3
       }
