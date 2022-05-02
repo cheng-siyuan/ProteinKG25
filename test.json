@@ -1,396 +1,73 @@
 {
- "nodes": [
-  {
-   "id": "0",
-   "name": "Gene Ontology",
-   "symbolSize": 45.58095333333333,
-   "x": -0.1347,
-   "y": 20.1347,
-   "value": "ROOT",
-   "category": 0
-  },
-  {
-   "id": "1",
-   "name": "Biological Process",
-   "symbolSize": 35.58095333333333,
-   "x": 10.233435,
-   "y": 10.111111,
-   "value": "GO:0008150",
-   "category": 1
-  },
-  {
-   "id": "2",
-   "name": "Cellular Component",
-   "symbolSize": 35.58095333333333,
-   "x": -18.22222,
-   "y": 41.8131495,
-   "value": "GO:0005575",
-   "category": 2
-  },
-  {
-   "id": "3",
-   "name": "Molecular Function",
-   "symbolSize": 35.58095333333333,
-   "x": 20.15555555,
-   "y": 43.11111111,
-   "value": "GO:0003674",
-   "category": 3
-  },
-  {
-   "id": "4",
-   "name": "reproduction",
-   "symbolSize": 37.23478234632,
-   "x": -20.237289,
-   "y": 5.3423423,
-   "value": "GO:0000003",
-   "category": 1
-  },
-  {
-   "id": "5",
-   "name": "immune system process",
-   "symbolSize": 37.23478234632,
-   "x": -10.35423432,
-   "y": -6.7897897,
-   "value": "GO:0002376",
-   "category": 1
-  },
-  {
-   "id": "6",
-   "name": "sulfur utilization",
-   "symbolSize": 37.23478234632,
-   "x": 10.324523543,
-   "y": -4.6786786,
-   "value": "GO:0006791",
-   "category": 1
-  },
-  {
-   "id": "7",
-   "name": "phosphorus utilization",
-   "symbolSize": 37.23478234632,
-   "x": 15.123123123,
-   "y": -3.786734721,
-   "value": "GO:0006794",
-   "category": 1
-  },
-  {
-   "id": "8",
-   "name": "behavior",
-   "symbolSize": 37.23478234632,
-   "x": 18.1237812973,
-   "y": 1.2341234,
-   "value": "GO:0007610",
-   "category": 1
-  },
-  {
-   "id": "9",
-   "name": "cellular anatomical entity",
-   "symbolSize": 37.23478234632,
-   "x": 15.23132123,
-   "y": 41.23482374,
-   "value": "GO:0110165",
-   "category": 2
-  },
-  {
-   "id": "10",
-   "name": "protein-containing complex",
-   "symbolSize": 37.23478234632,
-   "x": 20.46372412,
-   "y": 42.23471342,
-   "value": "GO:0032991",
-   "category": 2
-  },
-  {
-   "id": "11",
-   "name": "virion component",
-   "symbolSize": 37.23478234632,
-   "x": 21.234891,
-   "y": 44.214324,
-   "value": "GO:0044423",
-   "category": 2
-  },
-  {
-   "id": "12",
-   "name": "protein-containing complex",
-   "symbolSize": 37.23478234632,
-   "x": 18.2312312,
-   "y": 47.1234789,
-   "value": "GO:0043234",
-   "category": 2
-  },
-  {
-   "id": "13",
-   "name": "virion component",
-   "symbolSize": 37.23478234632,
-   "x": 10.23728913,
-   "y": 47.23482452,
-   "value": "GO:0019012",
-   "category": 2
-  },
-  {
-   "id": "14",
-   "name": "cargo receptor activity",
-   "symbolSize": 37.23478234632,
-   "x": -21.3452784623,
-   "y": 20.34532784683,
-   "value": "GO:0038024",
-   "category": 3
-  },
-  {
-   "id": "15",
-   "name": "transcription regulator activity",
-   "symbolSize": 37.23478234632,
-   "x": -25.432789472389,
-   "y": 29.234178923,
-   "value": "GO:0140110",
-   "category": 3
-  },
-  {
-   "id": "16",
-   "name": "toxin activity",
-   "symbolSize": 37.23478234632,
-   "x": -30.2347892347,
-   "y": 31.5472387458923,
-   "value": "GO:0090729",
-   "category": 3
-  },
-  {
-   "id": "17",
-   "name": "nutrient reservoir activity",
-   "symbolSize": 37.23478234632,
-   "x": -20.123123,
-   "y": 44.4473928,
-   "value": "GO:0045735",
-   "category": 3
-  },
-  {
-   "id": "18",
-   "name": "general transcription initiation factor activity",
-   "symbolSize": 37.23478234632,
-   "x": -10.34283423,
-   "y": 42.234728913,
-   "value": "GO:0140223",
-   "category": 3
-  },
-  {
-   "id": "19",
-   "name": "sexual reproduction",
-   "symbolSize": 35.780953333333336,
-   "x": -21.23213,
-   "y": -1.234234,
-   "value": "GO:0019953",
-   "category": 1
-  },
-  {
-   "id": "20",
-   "name": "multicellular organism reproduction",
-   "symbolSize": 35.780953333333336,
-   "x": -20.123123,
-   "y": -5.4324234789,
-   "value": "GO:0032504",
-   "category": 1
-  },
-  {
-   "id": "21",
-   "name": "antigen processing and presentation",
-   "symbolSize": 35.780953333333336,
-   "x": -23.34782934789237,
-   "y": -8.341234123,
-   "value": "GO:0030333",
-   "category": 1
-  },
-  {
-   "id": "22",
-   "name": "leukocyte homeostasis",
-   "symbolSize": 35.780953333333336,
-   "x": 8.123123123,
-   "y": -9.4637284,
-   "value": "GO:0001776",
-   "category": 1
-  },
-  {
-   "id": "23",
-   "name": "regulation of sulfur utilization",
-   "symbolSize": 35.780953333333336,
-   "x": 12.4321423,
-   "y": 16.1231243,
-   "value": "GO:0006792",
-   "category": 1
-  },
-  {
-   "id": "24",
-   "name": "negative regulation of sulfur utilization",
-   "symbolSize": 35.780953333333336,
-   "x": 13.2312234,
-   "y": 0.3248093,
-   "value": "GO:0045882",
-   "category": 1
-  },
-  {
-   "id": "25",
-   "name": "negative regulation of phosphorus utilization",
-   "symbolSize": 35.780953333333336,
-   "x": 15.346782374,
-   "y": 2.43243798,
-   "value": "GO:0045942",
-   "category": 1
-  },
-  {
-   "id": "26",
-   "name": "positive regulation of phosphorus utilization",
-   "symbolSize": 35.780953333333336,
-   "x": 21.34728934,
-   "y": 2.432423423,
-   "value": "GO:0045949",
-   "category": 1
-  },
-  {
-   "id": "27",
-   "name": "positive regulation of behavior",
-   "symbolSize": 35.780953333333336,
-   "x": 25.3462784,
-   "y": 6.312783912,
-   "value": "GO:0048520",
-   "category": 1
-  },
-  {
-   "id": "28",
-   "name": "negative regulation of behavior",
-   "symbolSize": 35.780953333333336,
-   "x": 19.347289347839,
-   "y": -1.4723847923,
-   "value": "GO:0048521",
-   "category": 1
-  }
- ],
- "links": [
-  {
-   "source": "0",
-   "target": "1"
-  },
-  {
-   "source": "0",
-   "target": "2"
-  },
-  {
-   "source": "0",
-   "target": "3"
-  },
-  {
-   "source": "1",
-   "target": "4"
-  },
-  {
-   "source": "1",
-   "target": "5"
-  },
-  {
-   "source": "1",
-   "target": "6"
-  },
-  {
-   "source": "1",
-   "target": "7"
-  },
-  {
-   "source": "1",
-   "target": "8"
-  },
-  {
-   "source": "2",
-   "target": "9"
-  },
-  {
-   "source": "2",
-   "target": "10"
-  },
-  {
-   "source": "2",
-   "target": "11"
-  },
-  {
-   "source": "2",
-   "target": "12"
-  },
-  {
-   "source": "2",
-   "target": "13"
-  },
-  {
-   "source": "3",
-   "target": "14"
-  },
-  {
-   "source": "3",
-   "target": "15"
-  },
-  {
-   "source": "3",
-   "target": "16"
-  },
-  {
-   "source": "3",
-   "target": "17"
-  },
-  {
-   "source": "3",
-   "target": "18"
-  },
-  {
-   "source": "4",
-   "target": "19"
-  },
-  {
-   "source": "4",
-   "target": "20"
-  },
-  {
-   "source": "5",
-   "target": "21"
-  },
-  {
-   "source": "5",
-   "target": "22"
-  },
-  {
-   "source": "6",
-   "target": "23"
-  },
-  {
-   "source": "6",
-   "target": "24"
-  },
-  {
-   "source": "7",
-   "target": "25"
-  },
-  {
-   "source": "7",
-   "target": "26"
-  },
-  {
-   "source": "8",
-   "target": "27"
-  },
-  {
-   "source": "8",
-   "target": "28"
-  }
- ],
- "categories": [
-  {
-   "name": "Gene Ontology"
-  },
-  {
-   "name": "Biological Process"
-  },
-  {
-   "name": "Celluar Component"
-  },
-  {
-   "name": "Molecular Function"
-  },
-  {
-   "name": "Protein"
-  }
- ]
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Gene Ontology",
+        "symbolSize": 45.58095333333333,
+        "x": -0.1347,
+        "y": 20.1347,
+        "value": "ROOT",
+        "category": 0
+      },
+      {
+        "id": "1",
+        "name": "Biological Process",
+        "symbolSize": 35.58095333333333,
+        "x": 10.233435,
+        "y": 10.111111,
+        "value": "GO:0008150",
+        "category": 1
+      },
+      {
+        "id": "2",
+        "name": "Cellular Component",
+        "symbolSize": 35.58095333333333,
+        "x": 20.15555555,
+        "y": 43.11111111,
+        "value": "GO:0005575",
+        "category": 2
+      },
+      {
+        "id": "3",
+        "name": "Molecular Function",
+        "symbolSize": 35.58095333333333,
+        "x": -18.22222,
+        "y": 41.8131495,
+        "value": "GO:0003674",
+        "category": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "0",
+        "target": "1",
+        "des": "xxxx",
+        "name": "yyyy"
+      },
+      {
+        "source": "0",
+        "target": "2"
+      },
+      {
+        "source": "0",
+        "target": "3"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Gene Ontology"
+      },
+      {
+        "name": "Biological Process"
+      },
+      {
+        "name": "Celluar Component"
+      },
+      {
+        "name": "Molecular Function"
+      },
+      {
+        "name": "Protein"
+      }
+    ]
 }
