@@ -177,7 +177,7 @@
    "symbolSize": 35.780953333333336,
    "x": -21.23213,
    "y": -1.234234,
-   "value": "",
+   "value": "GO:0019953",
    "category": 1
   },
   {
@@ -186,79 +186,79 @@
    "symbolSize": 35.780953333333336,
    "x": -20.123123,
    "y": -5.4324234789,
-   "value": "",
+   "value": "GO:0032504",
    "category": 1
   },
   {
    "id": "21",
    "name": "antigen processing and presentation",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": -23.34782934789237,
+   "y": -8.341234123,
+   "value": "GO:0030333",
    "category": 1
   },
   {
    "id": "22",
    "name": "leukocyte homeostasis",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": 8.123123123,
+   "y": -9.4637284,
+   "value": "GO:0001776",
    "category": 1
   },
   {
    "id": "23",
    "name": "regulation of sulfur utilization",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": 12.4321423,
+   "y": 16.1231243,
+   "value": "GO:0006792",
    "category": 1
   },
   {
    "id": "24",
    "name": "negative regulation of sulfur utilization",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": 13.2312234,
+   "y": 0.3248093,
+   "value": "GO:0045882",
    "category": 1
   },
   {
    "id": "25",
    "name": "negative regulation of phosphorus utilization",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": 15.346782374,
+   "y": 2.43243798,
+   "value": "GO:0045942",
    "category": 1
   },
   {
    "id": "26",
    "name": "positive regulation of phosphorus utilization",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": 21.34728934,
+   "y": 2.432423423,
+   "value": "GO:0045949",
    "category": 1
   },
   {
    "id": "27",
    "name": "positive regulation of behavior",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": 25.3462784,
+   "y": 6.312783912,
+   "value": "GO:0048520",
    "category": 1
   },
   {
    "id": "28",
    "name": "negative regulation of behavior",
    "symbolSize": 35.780953333333336,
-   "x": null,
-   "y": null,
-   "value": "",
+   "x": 19.347289347839,
+   "y": -1.4723847923,
+   "value": "GO:0048521",
    "category": 1
   }
  ],
