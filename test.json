@@ -5,7 +5,7 @@
         "name": "Gene Ontology",
         "symbolSize": 45.58095333333333,
         "x": -0.1347,
-        "y": 40.1347,
+        "y": 20.1347,
         "value": "ROOT",
         "category": 0
       },
@@ -41,7 +41,8 @@
       {
         "source": "0",
         "target": "1",
-        "name": "xxxx"
+        "des": "xxxx",
+        "name": "yyyy"
       },
       {
         "source": "0",
