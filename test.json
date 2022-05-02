@@ -440,7 +440,107 @@
    "y": 39.945435,
    "value": "GO:0001075",
    "category": 3
-  }
+  },
+
+  {
+    "id": "49",
+    "name": "P84825",
+    "symbolSize": 30.780953333333333,
+    "x": 45.5343,
+    "y": 45.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "50",
+    "name": "Q9FRT9",
+    "symbolSize": 30.780953333333333,
+    "x": -45.5343,
+    "y": 45.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "51",
+    "name": "Q883Q9",
+    "symbolSize": 30.780953333333333,
+    "x": 45.5343,
+    "y": -45.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "52",
+    "name": "P0C8G7",
+    "symbolSize": 30.780953333333333,
+    "x": -45.5343,
+    "y": -45.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "53",
+    "name": "P83253",
+    "symbolSize": 30.780953333333333,
+    "x": 40.5343,
+    "y": 40.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "54",
+    "name": "A0A1X9QHL1",
+    "symbolSize": 30.780953333333333,
+    "x": -40.5343,
+    "y": 40.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "55",
+    "name": "P21401",
+    "symbolSize": 30.780953333333333,
+    "x": 40.5343,
+    "y": -40.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "56",
+    "name": "Q6X0I2",
+    "symbolSize": 30.780953333333333,
+    "x": 37.37298,
+    "y": 34.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "57",
+    "name": "Q52SK7",
+    "symbolSize": 30.780953333333333,
+    "x": 37.37298,
+    "y": -34.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "58",
+    "name": "Q50L96",
+    "symbolSize": 30.780953333333333,
+    "x": 37.37298,
+    "y": 34.54739,
+    "value": "protein",
+    "category": 4
+   },
+   {
+    "id": "59",
+    "name": "A8WRV1",
+    "symbolSize": 30.780953333333333,
+    "x": 39.37298,
+    "y": 32.54739,
+    "value": "protein",
+    "category": 4
+   }
  ],
  "links": [
   {
@@ -634,7 +734,175 @@
   {
    "source": "18",
    "target": "48"
-  }
+  },
+  {
+    "source": "49",
+    "target": "16"
+    },
+    {
+    "source": "49",
+    "target": "44"
+    },
+    {
+    "source": "49",
+    "target": "1"
+    },
+    {
+    "source": "50",
+    "target": "17"
+    },
+    {
+    "source": "50",
+    "target": "44"
+    },
+    {
+    "source": "51",
+    "target": "3"
+    },
+    {
+    "source": "51",
+    "target": "1"
+    },
+    {
+    "source": "52",
+    "target": "17"
+    },
+    {
+    "source": "52",
+    "target": "44"
+    },
+    {
+    "source": "53",
+    "target": "16"
+    },
+    {
+    "source": "53",
+    "target": "44"
+    },
+    {
+    "source": "54",
+    "target": "44"
+    },
+    {
+    "source": "54",
+    "target": "5"
+    },
+    {
+    "source": "55",
+    "target": "11"
+    },
+    {
+    "source": "56",
+    "target": "14"
+    },
+    {
+    "source": "57",
+    "target": "3"
+    },
+    {
+    "source": "57",
+    "target": "16"
+    },
+    {
+    "source": "57",
+    "target": "1"
+    },
+    {
+    "source": "57",
+    "target": "44"
+    },
+    {
+    "source": "58",
+    "target": "10"
+    },
+    {
+    "source": "59",
+    "target": "4"
+    },
+    {
+    "source": "49",
+    "target": "16"
+    },
+    {
+    "source": "49",
+    "target": "44"
+    },
+    {
+    "source": "49",
+    "target": "1"
+    },
+    {
+    "source": "50",
+    "target": "17"
+    },
+    {
+    "source": "50",
+    "target": "44"
+    },
+    {
+    "source": "51",
+    "target": "3"
+    },
+    {
+    "source": "51",
+    "target": "1"
+    },
+    {
+    "source": "52",
+    "target": "17"
+    },
+    {
+    "source": "52",
+    "target": "44"
+    },
+    {
+    "source": "53",
+    "target": "16"
+    },
+    {
+    "source": "53",
+    "target": "44"
+    },
+    {
+    "source": "54",
+    "target": "44"
+    },
+    {
+    "source": "54",
+    "target": "5"
+    },
+    {
+    "source": "55",
+    "target": "11"
+    },
+    {
+    "source": "56",
+    "target": "14"
+    },
+    {
+    "source": "57",
+    "target": "3"
+    },
+    {
+    "source": "57",
+    "target": "16"
+    },
+    {
+    "source": "57",
+    "target": "1"
+    },
+    {
+    "source": "57",
+    "target": "44"
+    },
+    {
+    "source": "58",
+    "target": "10"
+    },
+    {
+    "source": "59",
+    "target": "4"
+    }
  ],
  "categories": [
   {
