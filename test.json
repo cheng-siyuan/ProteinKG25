@@ -1,0 +1,71 @@
+{
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Gene Ontology",
+        "symbolSize": 19.12381,
+        "x": 0,
+        "y": 0,
+        "value": "ROOT",
+        "category": 0
+      },
+      {
+        "id": "1",
+        "name": "Biological Process",
+        "symbolSize": 28.266666666666666,
+        "x": 87,
+        "y": 10,
+        "value": "GO:0008150",
+        "category": 1
+      },
+      {
+        "id": "2",
+        "name": "Cellular Component",
+        "symbolSize": 28.266666666666666,
+        "x": -98,
+        "y": 4.8131495,
+        "value": "GO:0005575",
+        "category": 2
+      },
+      {
+        "id": "3",
+        "name": "Molecular Function",
+        "symbolSize": 28.266666666666666,
+        "x": -10,
+        "y": 76,
+        "value": "GO:0003674",
+        "category": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "0",
+        "target": "1"
+      },
+      {
+        "source": "0",
+        "target": "2"
+      },
+      {
+        "source": "0",
+        "target": "3"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Gene Ontology"
+      },
+      {
+        "name": "Biological Process"
+      },
+      {
+        "name": "Celluar Component"
+      },
+      {
+        "name": "Molecular Function"
+      },
+      {
+        "name": "Protein"
+      }
+    ]
+}
