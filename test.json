@@ -545,7 +545,8 @@
  "links": [
   {
    "source": "0",
-   "target": "1"
+   "target": "1",
+   "value": "BP"
   },
   {
    "source": "0",
@@ -557,7 +558,8 @@
   },
   {
    "source": "1",
-   "target": "4"
+   "target": "4",
+   "value": "is_a"
   },
   {
    "source": "1",
