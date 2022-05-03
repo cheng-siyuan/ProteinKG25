@@ -550,11 +550,13 @@
   },
   {
    "source": "0",
-   "target": "2"
+   "target": "2",
+   "value": "CC"
   },
   {
    "source": "0",
-   "target": "3"
+   "target": "3",
+   "value": "MF"
   },
   {
    "source": "1",
@@ -563,59 +565,73 @@
   },
   {
    "source": "1",
-   "target": "5"
+   "target": "5",
+   "value": "is_a"
   },
   {
    "source": "1",
-   "target": "6"
+   "target": "6",
+   "value": "is_a"
   },
   {
    "source": "1",
-   "target": "7"
+   "target": "7",
+   "value": "is_a"
   },
   {
    "source": "1",
-   "target": "8"
+   "target": "8",
+   "value": "is_a"
   },
   {
    "source": "2",
-   "target": "9"
+   "target": "9",
+   "value": "is_a"
   },
   {
    "source": "2",
-   "target": "10"
+   "target": "10",
+   "value": "is_a"
   },
   {
    "source": "2",
-   "target": "11"
+   "target": "11",
+   "value": "is_a"
   },
   {
    "source": "2",
-   "target": "12"
+   "target": "12",
+   "value": "is_a"
   },
   {
    "source": "2",
-   "target": "13"
+   "target": "13",
+   "value": "is_a"
   },
   {
    "source": "3",
-   "target": "14"
+   "target": "14",
+   "value": "is_a"
   },
   {
    "source": "3",
-   "target": "15"
+   "target": "15",
+   "value": "is_a"
   },
   {
    "source": "3",
-   "target": "16"
+   "target": "16",
+   "value": "is_a"
   },
   {
    "source": "3",
-   "target": "17"
+   "target": "17",
+   "value": "is_a"
   },
   {
    "source": "3",
-   "target": "18"
+   "target": "18",
+   "value": "is_a"
   },
   {
    "source": "4",
